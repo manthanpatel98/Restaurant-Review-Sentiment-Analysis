@@ -1,22 +1,14 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
-# Importing essential libraries
 from flask import Flask, render_template, request
 import pickle
-#import re
-#import nltk
-#from nltk.corpus import stopwords
-#from nltk.stem.porter import PorterStemmer
-#from sklearn.feature_extraction.text import CountVectorizer
 
-# Load the Multinomial Naive Bayes model and CountVectorizer object from disk
+
+# Load the Multinomial Naive Bayes model and CountVectorizer object 
 filename = 'model.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 cv = pickle.load(open('cv-model.pkl','rb'))
-#ps = PorterStemmer()
-
 app = Flask(__name__)
-
 
 
 @app.route('/')
