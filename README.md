@@ -9,7 +9,7 @@
 ---
 ## **Understanding The Project**
 
-### **Starting with Dataset**
+### **The Dataset**
 ***
 ![Dataset](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/README-Resources/Screenshot%20(96).png)
 
