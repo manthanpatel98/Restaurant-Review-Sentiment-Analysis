@@ -44,10 +44,10 @@ X = cv.fit_transform(corpus).toarray()
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=0)
 
-#from sklearn.naive_bayes import MultinomialNB
-#classifier = MultinomialNB().fit(X_train, y_train)
-randomclassifier=RandomForestClassifier(n_estimators=200,criterion='entropy')
-randomclassifier.fit(X_test,y_test)
+from sklearn.naive_bayes import MultinomialNB
+classifier = MultinomialNB().fit(X_train, y_train)
+#randomclassifier=RandomForestClassifier(n_estimators=200,criterion='entropy')
+#randomclassifier.fit(X_train,y_train)
 
 y_pred = classifier.predict(X_test)
 
