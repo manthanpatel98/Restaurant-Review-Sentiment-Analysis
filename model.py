@@ -3,6 +3,10 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report,confusion_matrix,accuracy_score
+from nltk.corpus import stopwords
+from nltk.stem.porter import PorterStemmer
+import re
+import nltk
 
 df=pd.read_csv('Restaurant reviews.csv', encoding = "ISO-8859-1")
 df = df.drop(columns=["Restaurant","Reviewer","Metadata","Time","Pictures"])
@@ -21,11 +25,7 @@ for i in range(0,len(y)):
     else:
         y[i] = "Negative"
 
-import re
-import nltk
 
-from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 corpus = []
 for i in range(0, len(X)):
@@ -46,8 +46,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random
 
 from sklearn.naive_bayes import MultinomialNB
 classifier = MultinomialNB().fit(X_train, y_train)
-#randomclassifier=RandomForestClassifier(n_estimators=200,criterion='entropy')
-#randomclassifier.fit(X_train,y_train)
 
 y_pred = classifier.predict(X_test)
 
@@ -63,9 +61,6 @@ import pickle
 pickle.dump(classifier,open('model.pkl','wb'))
 pickle.dump(cv,open('cv-model.pkl','wb'))
 
-model = pickle.load(open('model.pkl','rb')) 
 
-from collections import Counter
-print(Counter(y))
 
 
