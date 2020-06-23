@@ -5,7 +5,7 @@
 
 ![Predicting Restaurant Review Heroku Project](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/README-Resources/Restaurant-Review1.gif)
 
-### **[The Project on Heroku](https://restaurantreviewsentiment.herokuapp.com/predict)**
+### **[The Project on Heroku](https://restaurantreviewsentiment.herokuapp.com/)**
 ---
 ## **Understanding The Project**
 
