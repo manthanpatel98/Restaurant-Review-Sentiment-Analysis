@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report,confusion_matrix,accuracy_score
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
@@ -60,7 +58,3 @@ print(accuracy)
 import pickle
 pickle.dump(classifier,open('model.pkl','wb'))
 pickle.dump(cv,open('cv-model.pkl','wb'))
-
-
-
-
