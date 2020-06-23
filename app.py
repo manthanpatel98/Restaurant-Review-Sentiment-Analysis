@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 import pickle
 
 
-# Load the Multinomial Naive Bayes model and CountVectorizer object 
+# Loading the Multinomial Naive Bayes model and CountVectorizer object 
 filename = 'model.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 cv = pickle.load(open('cv-model.pkl','rb'))
