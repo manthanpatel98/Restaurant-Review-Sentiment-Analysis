@@ -26,5 +26,5 @@
 | Random Forest | 89.28% |
 | MultinomialNB | 90.84% |
 | SVM | 76.68% |
-
-* After Checking Accuracy for these Three Algorithms, I decided to use **MultinomialNB** in **Web App**.
+| KNN | 81.44% |
+* After Checking Accuracy for these Foure Algorithms, I decided to use **MultinomialNB** in **Web App**.
