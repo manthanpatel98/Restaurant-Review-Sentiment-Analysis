@@ -13,6 +13,15 @@
 ***
 ![Dataset](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/README-Resources/Screenshot%20(96).png)
 
+---
+## **Overview**
+* Dataset has **10000 rows** and **8 columns**.
+* We have to predict whether a review is **"Positive"** or **"Negative"**.
+* **PortStemmer** method has been used for **Stemming**.
+* I have applied many different algorithms **RandomForestClassifier**, **MultinomialNB**, **SVM** and **KNN**.
+
+---
+## **Details**
 * From this Dataset, To Perform NLP Project, I decided to take **"Review"** and **"Rating columns"**.
 * Later After cleaning the columns, I converted **"Rating"** Column, which is actually a numerical column, into the column that has two labels **"Positive"** and **"Negative"**.
 * I considered Rating **Above 3** as **"Positive"** and **Below 3** as **"Negative"**.
