@@ -3,9 +3,10 @@
 ---
 ### Web APP on Heroku
 
-![Predicting Restaurant Review Heroku Project](https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/README-Resources/Restaurant-Review1.gif)
+<img src="https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/README-Resources/Restaurant-Review1.gif" width=700 height=700>
 
 ### **[The Project on Heroku](https://restaurantreviewsentiment.herokuapp.com/)**
+
 ---
 ## **Understanding The Project**
 
