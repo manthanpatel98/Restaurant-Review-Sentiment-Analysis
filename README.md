@@ -3,7 +3,7 @@
 ---
 ### Web APP on Heroku
 
-<img src="https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/README-Resources/RestaurantGIF.gif" width=60% height=70%>
+<img src="https://github.com/manthanpatel98/Restaurant-Review-Sentiment-Analysis/blob/master/README-Resources/RestaurantGIF.gif" width="600">
 
 ### **[The Project on Heroku](https://restaurantreviewsentiment.herokuapp.com/)**
 
