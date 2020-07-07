@@ -19,7 +19,8 @@
 * Dataset has **10000 rows** and **8 columns**.
 * We have to predict whether a review is **"Positive"** or **"Negative"**.
 * **PortStemmer** method has been used for **Stemming**.
-* I have applied many different algorithms **RandomForestClassifier**, **MultinomialNB**, **SVM** and **KNN**.
+* I have also tried **WordEmbedding** with **LSTM**.
+* I have applied many different algorithms **LSTM**, **Bi-Directional LSTM**, **RandomForestClassifier**, **MultinomialNB**, **SVM** and **KNN**.
 
 ---
 ## **Details**
@@ -37,4 +38,6 @@
 | MultinomialNB | 90.84% |
 | SVM | 76.68% |
 | KNN | 81.44% |
+| LSTM | 87.56% |
+| Bi-Directional LSTM | 89.36% |
 * After Checking Accuracy for these Foure Algorithms, I decided to use **MultinomialNB** in **Web App**.
